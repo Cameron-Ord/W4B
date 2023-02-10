@@ -1,0 +1,54 @@
+body{
+font-family: sans-serif;
+background-color: white;
+color: white;
+}
+
+#page_header{
+background-color: #0084FF;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+min-height: 10vh;
+
+}
+
+
+#page_main{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+#div_white{
+background-color: white;
+height: 60px;
+}
+
+.page_article{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    min-height: 70vh;
+    background: #B8DDFF ;
+}
+
+
+.page_article>img{
+    display: grid;
+    align-self: flex-end;
+    justify-self: start;
+    width: 80%;
+    height: 100%;
+    }
+
+.page_article2{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        min-height: 70vh;
+        background:#CAF0DB ;
+}
+
+
+#page_footer{
+
+
+}
