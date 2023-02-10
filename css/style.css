@@ -10,10 +10,13 @@ background-color: #0084FF;
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 min-height: 10vh;
-
+width:
 }
 
+#page_header>h1{
 
+    color: white;
+}
 
 #page_main{
 display: grid;
@@ -21,10 +24,7 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 min-height: 70vh;
 }
 
-#div_white{
-background-color: white;
-height: 60px;
-}
+
 
 .page_article{
     display: grid;
@@ -70,11 +70,12 @@ margin-left: 70px;
     display: grid;
     align-self: end;
     justify-self: start;
-    width: 70%;
+    width: 80%;
     height: 100%;
+    min-width: 40vw;
+    min-height: 60vh;
     margin-left: 20px;
-    min-height: 100%;
-    min-width: 70%;
+
     }
 
 
@@ -220,8 +221,8 @@ display: block;width: 80%;
 
 #ideaman{
 margin-top: 20px;
-    align-self: center;
-    justify-self: center;
+align-self: center;
+justify-self: center;
 padding: 20px;
 background-color: white;
 }
@@ -229,6 +230,7 @@ background-color: white;
 
 
 .testimonials{
+display: grid;
 min-height: 50vh;
 text-align: center;
 color: black;
@@ -240,7 +242,7 @@ color: black;
     color:#9693E6 ;
 }
 
-.page_article6{
+.page_NAT{
 min-height: 80vh;
     align-content: center;
 justify-content: center;
@@ -248,12 +250,21 @@ justify-content: center;
 background-color: #FF8A8A; 
 }
 
-.page_article6>img{
+.page_NAT>img{
 width: 75%;
 justify-self: center;
 }
 
-.page_article7{
+.page_NAT>p{
+text-align: center;
+
+}
+
+.page_NAT>h3{
+
+    justify-self: center;
+}
+.page_CELIA{
 min-height: 80vh;
     align-content: center;
     justify-content: center;
@@ -263,12 +274,23 @@ min-height: 80vh;
 }
     
 
-.page_article7>img{
+.page_CELIA>img{
     width: 75%;
     justify-self: center;
     }
 
-.page_article8{
+
+    .page_CELIA>p{
+
+text-align: center;
+
+    }
+    .page_CELIA>h3{
+
+        justify-self: center;
+    }
+
+.page_BOB{
     background-color: olive;
        min-height: 80vh;
         align-content: center;
@@ -277,19 +299,155 @@ min-height: 80vh;
 }
         
     
-.page_article8>img{
+.page_BOB>p{
+
+    text-align: center;
+}
+
+
+.page_BOB>h3{
+
+    justify-self: center;
+}
+.page_BOB>img{
         width: 75%;
         justify-self: center;
  }
     
 
-#BOSS{
 
-
-    
+.work_with_us{
+display: grid;
+min-height: 200vh;
+background-color:#9693E6;
+font-size: 125%;
+justify-content: center;
+align-content: start;
 }
 
-#page_footer{
+#div_white{
 
+background-color: white;
+
+}
+
+#about_us{
+
+background-color: white;
+display: grid;
+grid-template-rows: auto;
+min-height: 50vh;
+justify-content: center;
+align-content: start; 
+}
+
+#about_us>h1{
+
+justify-self: center;
+color:#9693E6;
+
+}
+#about_us>p{
+text-align: center;
+color: black;
+
+}
+
+.boss_tag{
+
+    background-color: white;
+    display: grid;
+    grid-template-rows: auto;
+    min-height: 60vh;
+    justify-content: center;
+    align-content: start; 
+    }
+
+.boss_tag>h1{
+
+color: #9693E6;
+
+
+}
+
+.boss_tag>img{
+align-self: center;
+    justify-self: start;
+width: 60%;
+
+}
+
+.boss_tag>a{
+color: white;
+justify-self: start;
+align-self: end;
+background-color: #9693E6;
+padding: 10px;
+}
+
+
+#get_started{
+
+background-color: #9693E6;
+display: grid;
+align-content: center;
+justify-content: center;
+
+}
+
+#get_started>h4{
+justify-self: center;
+color: black;
+
+}
+
+#get_started>h2{
+justify-self: center;
+    color: white;
+}
+
+#get_started>p{
+text-align: center;
+    color: white;
+}
+
+
+#specific_cell{
+    align-self: flex-end;
+justify-self: center;
+background-color: white;
+padding: 20px;
+
+}
+
+#specific_cell2{
+
+color: orange;
+font-size: 60px;
+justify-self: center;
+}
+
+
+
+
+#page_footer{
+display: grid;
+background-color:#9693E6;
+justify-content: center;
+align-content: start;
+min-height: 10vh;
+}
+
+nav>a{
+font-size: small;
+    color: white;
+}
+
+
+#black_box{
+
+height: 100px;
+width: 100%;
+background-color: black;
 
 }
