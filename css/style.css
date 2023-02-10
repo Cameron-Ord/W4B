@@ -47,6 +47,16 @@ height: 60px;
         background:#CAF0DB ;
 }
 
+.page_article2>img{
+    display: grid;
+    align-self: flex-end;
+    justify-self: start;
+    width: 80%;
+    height: 100%;
+    }
+
+
+
 
 #page_footer{
 
