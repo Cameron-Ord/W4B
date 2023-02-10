@@ -36,8 +36,9 @@ height: 60px;
     display: grid;
     align-self: flex-end;
     justify-self: start;
-    width: 80%;
+    width: 70%;
     height: 100%;
+    margin-left: 20px;
     }
 
 .page_article2{
