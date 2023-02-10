@@ -8,7 +8,7 @@ font-size: 100%;
 #page_header{
 background-color: #0084FF;
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 min-height: 10vh;
 
 }
@@ -17,7 +17,7 @@ min-height: 10vh;
 
 #page_main{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 min-height: 70vh;
 }
 
@@ -38,7 +38,7 @@ height: 60px;
 .page_article>p{
 
 text-align: start;
-margin-left: 25px;
+margin-left: 13px;
 color: #0084FF;
 width: 80%;
 
@@ -50,7 +50,7 @@ width: 80%;
 font-size: 155%;
 justify-self: start;
 align-self: center;
-margin-left: 25px ;
+margin-left: 13px ;
 color:  #0084FF;
 
 }
@@ -61,7 +61,7 @@ background-color: #0084FF;
 padding: 15px;
 justify-self: start;
 align-self: end;
-margin-left: 150px;
+margin-left: 70px;
 
 }
 
@@ -73,6 +73,8 @@ margin-left: 150px;
     width: 70%;
     height: 100%;
     margin-left: 20px;
+    min-height: 100%;
+    min-width: 70%;
     }
 
 
@@ -139,20 +141,32 @@ justify-self: center;
 
 
 .page_article4{
-
+justify-content: center;
+align-content: center;
 display: grid;
 min-height: 50vh;
 background-color:#FFE7C4 ;
 color: #FFC166;
 }
 
+.page_article4>p{
+
+    text-align: center;
+}
+
+.page_article4>h1{
+
+    justify-self: center;
+}
+
 .page_article4>img{
 width: 25%;
-
+justify-self: center;
 }
 
 .page_article5{
-
+    align-content: center;
+justify-content: center;
     display: grid;
     min-height: 50vh;
     background-color:#D5D4F5 ;
@@ -161,12 +175,24 @@ color: #9693E6;
 }
 
 
-.page_article5>img{
+.page_article5>p{
 
+text-align: center;
+
+
+}
+.page_article5>h1{
+
+    justify-self: center;
+}
+
+.page_article5>img{
+justify-self: center;
     width: 25%;
 }
 
 .strategic_planning{
+    min-height: 120vh;
 display: grid;
 background-color:#9693E6 ;
 color: white;
@@ -175,24 +201,92 @@ align-content: center;
 }
 
 .strategic_planning>img{
-
-width: 50%;
+justify-self: center;
+align-self: center;
+width: 75%;
 
 }
 
 .strategic_planning>h1{
 
- 
+justify-self: center; 
 
 }
 
 .strategic_planning>p{
+display: block;width: 80%;
+    text-align: center;
+}
+
+#ideaman{
+margin-top: 20px;
+    align-self: center;
+    justify-self: center;
+padding: 20px;
+background-color: white;
+}
+
+
+
+.testimonials{
+min-height: 50vh;
+text-align: center;
+color: black;
 
 }
 
-.strategic_planning>div{
-background-color: white;
-  
+.testimonials>h1{
+
+    color:#9693E6 ;
+}
+
+.page_article6{
+min-height: 80vh;
+    align-content: center;
+justify-content: center;
+    display: grid;
+background-color: #FF8A8A; 
+}
+
+.page_article6>img{
+width: 75%;
+justify-self: center;
+}
+
+.page_article7{
+min-height: 80vh;
+    align-content: center;
+    justify-content: center;
+        display: grid;
+        background-color: orange;
+
+}
+    
+
+.page_article7>img{
+    width: 75%;
+    justify-self: center;
+    }
+
+.page_article8{
+    background-color: olive;
+       min-height: 80vh;
+        align-content: center;
+        justify-content: center;
+            display: grid;
+}
+        
+    
+.page_article8>img{
+        width: 75%;
+        justify-self: center;
+ }
+    
+
+#BOSS{
+
+
+    
 }
 
 #page_footer{
