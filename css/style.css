@@ -5,12 +5,17 @@ color: white;
 font-size: 100%;
 }
 
+img{
+min-height: 100%;
+min-width: 70%;
+}
+
 #page_header{
 background-color: #0084FF;
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 min-height: 10vh;
-width:
+width: 100%;
 }
 
 #page_header>h1{
