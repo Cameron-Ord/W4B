@@ -2,10 +2,11 @@
 
 #header_main{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 justify-content: start;
 align-content: start;
 background-color: #0084FF;
+width: 100%;
 }
 
 header>h1{
@@ -14,11 +15,12 @@ margin-left: 10px;
 }
 
 #page_main{
+    width: 100%;
 display: grid;
 min-height: 70vh;
 background-color: white;
 
-grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 
@@ -53,15 +55,14 @@ background-color: #0084FF;
 padding: 10px;
     color: white;
     justify-self: start;
-    margin-left: 110px;
+    margin-left: 50px;
 }
 
 #span_article_phone>img{
     display: grid;
-height: 350px;
-width:300px; ;
-min-width: 250px;
-min-height: 300px;
+height: 250px;
+width:200px; ;
+
 justify-self: start;
 align-self: flex-end;
 }
@@ -201,12 +202,12 @@ font-size: 150%;
 
 
 .Waving_Woman{
-    min-height: 112vh;
+    min-height: 125vh;
 display: grid;
 background-color:#9693E6;
     justify-items: center;
     align-content: start;
-    grid-template-rows: 275px 10vh 175px 28vh 70px 9vh ;
+    grid-template-rows: 275px 10vh 175px 34vh 70px 10vh ;
 }
 
 .Waving_Woman>img{
@@ -229,7 +230,7 @@ display: inline-block;width: 75%;
 
 #idea_man{
 background-color: white;
-padding-bottom: 21vh;
+padding-bottom: 25vh;
 padding-left: 25px;
 padding-right: 25px;
 padding-top: 15px;
@@ -245,4 +246,25 @@ background-color: #9693E6;
 #specific_text_color{
 color: black;
 
+}
+
+
+#testimonial{
+display: grid;
+grid-template-rows: 80px 7vh 180px;
+justify-items: center;
+align-items: center;
+text-align: center;
+color: black;
+font-size: 1.25em;
+}
+#specific_header_color{
+    color: #9693E6;
+    font-size: 1.75em;
+    width: 75%;
+    }
+    
+#specific_width{
+
+    width: 75%;
 }
