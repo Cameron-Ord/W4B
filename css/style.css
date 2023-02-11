@@ -49,7 +49,7 @@ display: grid;
 padding: 10px;
 
 }
-#span_article_phone{
+.span_article_phone{
 border-radius: 30px;
     background-color: #B8DDFF;
     display: grid;
@@ -59,7 +59,7 @@ border-radius: 30px;
      margin-top: 25px;
     }
 
-#span_article_phone>p{
+.span_article_phone>p{
 margin-left: 5vw;
     text-align: start;
     display: block; width: 250px;
@@ -67,7 +67,7 @@ margin-left: 5vw;
     margin-bottom: 3vh;
 }
 
-#span_article_phone>h1{
+.span_article_phone>h1{
 justify-self: start;
 align-self: center;
 margin-left: 5vw;
@@ -75,7 +75,7 @@ color:#0084FF;
 font-size: 1.75em;
 }
 
-#span_article_phone>h3{
+.span_article_phone>h3{
 background-color: #0084FF;
 padding: 10px;
     color: white;
@@ -85,12 +85,11 @@ padding: 10px;
     border-radius: 60px;
 }
 
-#span_article_phone>img{
+.span_article_phone>img{
     display: grid;
 height: 250px;
 width:200px; ;
-min-height: 250px;
-min-width: 200px;
+
 justify-self: start;
 align-self: flex-end;
 }
@@ -576,6 +575,13 @@ background-color: black;
 
 @media only screen and (min-width: 720px) {
 
+    #header_main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(720px, 1fr));
+
+        
+        }
+
 
 #page_main{
 display: grid;
@@ -604,8 +610,35 @@ min-height: 70vh;
 .span_article_phone{
 
 display: grid;
-min-height: 70vh;
+min-height: 40vh;
 
+}
+
+#span_article_phone{
+    text-align: center;
+align-content: center;
+justify-items: start;
+
+}
+#span_article_phone>img{
+justify-self: start;
+align-self: end;
+width: 350px;
+height: 490px;
+
+}
+    
+#span_article_phone>p{
+
+width: 400px;
+
+}
+
+
+#span_article_phone>h3{
+align-self: center;
+justify-self: start;
+margin-left: 120px;
 }
 
 .code{
@@ -639,7 +672,7 @@ margin-left: 20px;
 
 
 .Waving_Woman{
-    min-height: 150vh;
+    min-height: 160vh;
 display: grid;
 background-color:#9693E6;
     justify-items: center;
@@ -675,9 +708,9 @@ width: 650px;
 #idea_man{
     border-radius: 30px;
 background-color: white;
-padding-bottom: 25vh;
-padding-left: 250px;
-padding-right: 250px;
+padding-bottom: 30vh;
+padding-left: 190px;
+padding-right: 190px;
 padding-top: 15px;
 }
 
@@ -757,8 +790,9 @@ min-height: 40vh;
 
 
 .benefits_span{
-margin-right: 20px;
-margin-left: 20px;
+    display: grid;
+margin-right: 5px;
+margin-left: 5px;
 
 }
 
@@ -852,3 +886,332 @@ text-align: center;
 
 
 }
+
+
+@media only screen and (min-width: 1080px) {
+  
+  
+    #header_main{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+
+        
+        }
+
+    #page_main{
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr))
+    }
+    
+    #page_article{
+    
+    display: grid;
+    min-height: 60vh;
+    grid-template-columns: 2fr 1fr;
+    min-height: 70vh;
+    
+    }  
+    
+    #page_article2{
+    
+    
+        display: grid;
+        min-height: 60vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        min-height: 70vh;
+    
+    }
+    
+    .span_article_phone{
+
+        display: grid;
+        min-height: 40vh;
+        
+        }
+        
+        #span_article_phone{
+            text-align: center;
+        align-content: center;
+        justify-items: start;
+        
+        }
+        #span_article_phone>img{
+        justify-self: start;
+        align-self: end;
+        width: 350px;
+        height: 490px;
+        
+        }
+            
+        #span_article_phone>p{
+        
+        width: 400px;
+        
+        }
+        
+        
+        #span_article_phone>h3{
+        align-self: center;
+        justify-self: start;
+        margin-left: 120px;
+        }
+    
+
+    
+    .code{
+    margin-left: 20px;
+    display: grid;
+    max-height: 80vh;
+    }
+    
+    
+    .design{
+    
+    margin-right: 20px;
+        display: grid;
+        min-height: 70vh;
+    }
+    
+    .development{
+    
+        display: grid;
+        min-height: 70vh;
+    
+    }
+    
+    .branding{
+    margin-left: 20px;
+        display: grid;
+        min-height: 70vh;
+    
+    }
+    
+    
+    
+    .Waving_Woman{
+        min-height: 160vh;
+    display: grid;
+    background-color:#9693E6;
+        justify-items: center;
+        align-content: center;
+        grid-template-rows: 375px 100px 250px 370px 80px 100px ;
+    }
+    
+    .Waving_Woman>img{
+    
+        width: 350px ;
+    }
+    
+    .Waving_Woman>h1{
+       text-align: center;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    color: white;
+    font-size: 3em;
+    width: 650px;
+    }
+    
+    .Waving_Woman>p{
+       
+        display: grid;
+        justify-self: center;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    width: 650px;
+    }
+    
+    #idea_man{
+        border-radius: 30px;
+    background-color: white;
+    padding-bottom: 30vh;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 15px;
+    }
+    
+    
+    
+    #testimonial_article{
+    
+    display: grid;
+    min-height: 30vh;
+    grid-template-rows: 1fr 1fr;
+    }
+    
+    
+    .testimonial_one{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    min-height: 30vh;
+    width: 50%;
+    justify-self: center;
+    }
+    
+    .testimonial_one>p{
+    text-align: center;
+    align-self: center;
+        justify-self: center;
+    }
+    
+    .testimonial_one>img{
+    display: grid;
+    justify-self: center;
+    
+    }
+    
+    
+    .testimonial_two{
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        min-height: 30vh;
+        width: 50%;
+        justify-self: center;
+        }
+        .testimonial_two>img{
+            display: grid;
+            justify-self: center;
+            
+            }
+    
+        .testimonial_two>p{
+            text-align: center;
+            align-self: center;
+                justify-self: center;
+            }
+            
+        .testimonial_three{
+    
+            grid-template-columns: 1fr 1fr;
+            display: grid;
+            min-height: 30vh;
+            width: 50%;
+            justify-self: center;
+            }
+            
+            .testimonial_three>img{
+                display: grid;
+                justify-self: center;
+                
+                }
+    
+            .testimonial_three>p{
+                text-align: center;
+                align-self: center;
+                    justify-self: center;
+                }
+    
+    
+    
+    
+    #benefits{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 40vh;
+    }
+    
+    
+    .benefits_span{
+        display: grid;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+    }
+    
+    
+    
+    
+    #about_us{
+    min-height: 30vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    .about_us_span{
+   
+    display: grid;
+    justify-items: start;
+    }
+    
+    .about_us_span>h1{
+    color: #9693E6;
+    font-size: 3.5em;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    text-align: center;
+    
+    }
+    
+    .about_us_span>p{
+    
+    color: black;
+    justify-self: start;
+    align-self: center;
+    text-align: start;
+    width: 800px;
+margin-bottom: 50px;
+    letter-spacing: 3px;
+    font-size: 1.25em;
+    }
+    
+    
+    .boss_span{
+    
+        display: grid;
+    justify-items: start;
+    align-content: center;
+    text-align: start;
+    
+    }
+    
+    .boss_span>h1{
+    
+width: 500px;
+    
+    }
+    
+    
+    #specific_padding_get_started{
+    
+        color: #9693E6;
+        background-color: white;
+        padding: 15px;
+        justify-self: center;
+        align-self: center;
+        border-radius: 25px;
+    
+        
+    }
+    
+    .footer_span{
+    
+        margin-top: 75px;
+        min-height: 53vh;
+        grid-template-rows: 60px 80px 140px 100px 120px;
+    display: grid;
+    background-color: #9693E6;
+    justify-items: center;
+    text-align: center;
+    
+    
+    }
+    
+    #black_box{
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
