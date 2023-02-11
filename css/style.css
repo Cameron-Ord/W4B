@@ -1,3 +1,6 @@
+
+
+
 body{
 
     font-family: sans-serif;
@@ -6,13 +9,15 @@ body{
 
 #header_main{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 justify-content: start;
 align-content: start;
 background-color: #0084FF;
 
 }
  
+
+
 
 #workaround{
 display: grid;
@@ -29,14 +34,56 @@ margin-left: 10px;
 font-size: 1.5em;
 }
 
-#page_main{
-  
+#phone_display{
+
+
 display: grid;
 
-background-color: white;
-
-grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
+
+.phone_display>img{
+height: 30vh;
+    width: 70vw;
+justify-self: start;
+align-self: flex-end;
+}
+
+.phone_display{
+    border-radius: 30px;
+min-height: 60vh;
+    background-color: #B8DDFF;
+    display: grid;
+justify-items: center;     
+text-align: start;
+
+     margin-top: 25px;
+     margin-bottom: 25px;
+color: #0084FF;
+letter-spacing: 2px;
+}
+
+
+.phone_display>h1{
+
+    margin-right: 25px;
+    
+    }
+
+.phone_display>p{
+
+margin-left: 25px;
+
+}
+.phone_display>h3{
+
+    color: white;
+    background-color: #0084FF;
+    padding: 20px;
+    align-self: center;
+    border-radius: 30px;
+    margin-right: 80px;
+}
+
 
 #arrow{
 height: 40px;
@@ -49,54 +96,10 @@ display: grid;
 padding: 10px;
 
 }
-.span_article_phone{
-border-radius: 30px;
-    background-color: #B8DDFF;
-    display: grid;
-
-     height: 70vh;
-     margin-bottom: 25px;
-     margin-top: 25px;
-    }
-
-.span_article_phone>p{
-margin-left: 5vw;
-    text-align: start;
-    display: block; width: 250px;
-    color: darkblue;
-    margin-bottom: 3vh;
-}
-
-.span_article_phone>h1{
-justify-self: start;
-align-self: center;
-margin-left: 5vw;
-color:#0084FF;
-font-size: 1.75em;
-}
-
-.span_article_phone>h3{
-background-color: #0084FF;
-padding: 10px;
-    color: white;
-    justify-self: start;
-    align-self: center;
-    margin-left: 50px;
-    border-radius: 60px;
-}
-
-.span_article_phone>img{
-    display: grid;
-height: 250px;
-width:200px; ;
-
-justify-self: start;
-align-self: flex-end;
-}
 
 
 
-#span_article_code{
+.code{
     border-radius: 30px;
 min-height: 30vh;
     background-color: #CAF0DB;
@@ -107,9 +110,10 @@ justify-items: center;
 align-content: center;
      margin-top: 25px;
      margin-bottom: 25px;
+     color: #54C788;
     }
 
-    #span_article_code>img{
+    .code>img{
 
         width: 90px;
      align-self: start;
@@ -117,7 +121,7 @@ align-content: center;
 
         }
 
-#span_article_code>p{
+.code>p{
 justify-self: center;
 text-align:center ;
 color: green;
@@ -125,7 +129,7 @@ font-size: 1em;
 width: 250px;
 }    
 
-#span_article_code>h1{
+.code>h1{
 
     color: #54C788;
 font-size: 1.5em;
@@ -147,8 +151,9 @@ align-content: center;
 }
 
 #span_article_design>img{
-
-    width: 90px;
+    height: auto;
+width: auto;
+    max-width: 90px;
     align-self: center;
     }
 
@@ -183,7 +188,8 @@ align-content: center;
 
 #span_article_development>img{
     align-self: center;
-    width: 90px;
+    width: auto;
+    max-width: 90px;
     
     }
 
@@ -216,7 +222,9 @@ align-content: center;
 
 #span_article_branding>img{
     align-self: center;
-    width: 90px;
+    width: auto;
+    height: auto;
+    max-width: 90px;
     
     }
 
@@ -245,8 +253,9 @@ background-color:#9693E6;
 }
 
 .Waving_Woman>img{
-
-    width: 250px ;
+width: auto;
+height: auto;
+    max-width: 250px ;
 }
 
 .Waving_Woman>h1{
@@ -321,7 +330,9 @@ width: 350px;
 
 .testimonial_one>img{
 align-self: center;
-    width: 250px;
+width: auto;
+height: auto;
+    max-width: 250px;
     border-radius: 50%;
 }
 
@@ -348,7 +359,9 @@ align-self: center;
     
     .testimonial_two>img{
     align-self: center;
-        width: 250px;
+    width: auto;
+    height: auto;
+        max-width: 250px;
         border-radius: 50%;
     }
 
@@ -377,7 +390,9 @@ align-self: center;
 
         .testimonial_three>img{
         align-self: center;
-            width: 250px;
+        width: auto;   
+        height: auto;
+        max-width: 250px;
             border-radius: 50%;
         }
 
@@ -490,7 +505,9 @@ margin-left: 20px;
 
 .boss_span>img{
 border-radius: 50%;
-width: 200px;
+width: auto;
+max-width: 200px;
+height: auto;
 
 
 }
@@ -588,14 +605,9 @@ display: grid;
     grid-template-columns: repeat(auto-fit, minmax(680px, 1fr))
 }
 
-#page_article{
 
-display: grid;
-min-height: 60vh;
-grid-template-columns: 2fr 1fr;
-min-height: 70vh;
+    
 
-}  
 
 #page_article2{
 
@@ -607,39 +619,60 @@ min-height: 70vh;
 
 }
 
-.span_article_phone{
 
-display: grid;
-min-height: 40vh;
 
-}
+#phone_display{
 
-#span_article_phone{
-    text-align: center;
-align-content: center;
-justify-items: start;
 
-}
-#span_article_phone>img{
-justify-self: start;
-align-self: end;
-width: 350px;
-height: 490px;
-
-}
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    }
     
-#span_article_phone>p{
+    .phone_display>img{
+    height: 35vh;
+    width: 40vw;
+    justify-self: start;
+    align-self: flex-end;
+    }
+    
+    .phone_display{
+        border-radius: 30px;
+    min-height: 60vh;
+        background-color: #B8DDFF;
+        display: grid;
+    justify-items: center;     
+    text-align: start;
+    
+         margin-top: 25px;
+         margin-bottom: 25px;
+    color: #0084FF;
+    letter-spacing: 2px;
+    }
+    
+    
+    .phone_display>h1{
+    
+        margin-right: 25px;
+        
+        }
+    
+    .phone_display>p{
+    
+    margin-left: 25px;
+    
+    }
+    .phone_display>h3{
+    
+        color: white;
+        background-color: #0084FF;
+        padding: 20px;
+        align-self: center;
+        border-radius: 30px;
+        margin-right: 80px;
+    }
 
-width: 400px;
-
-}
 
 
-#span_article_phone>h3{
-align-self: center;
-justify-self: start;
-margin-left: 120px;
-}
 
 .code{
 margin-left: 20px;
@@ -681,8 +714,9 @@ background-color:#9693E6;
 }
 
 .Waving_Woman>img{
-
-    width: 350px ;
+width: auto;
+height: auto;
+    max-width: 350px ;
 }
 
 .Waving_Woman>h1{
@@ -870,13 +904,6 @@ text-align: center;
 
 }
 
-#black_box{
-
-
-
-
-}
-
 
 
 
@@ -902,16 +929,9 @@ text-align: center;
     display: grid;
         grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr))
     }
-    
-    #page_article{
-    
-    display: grid;
-    min-height: 60vh;
-    grid-template-columns: 2fr 1fr;
-    min-height: 70vh;
-    
-    }  
-    
+
+
+
     #page_article2{
     
     
@@ -922,40 +942,60 @@ text-align: center;
     
     }
     
-    .span_article_phone{
 
+    #phone_display{
+
+grid-template-columns: 2fr 1fr;
         display: grid;
-        min-height: 40vh;
         
         }
         
-        #span_article_phone{
-            text-align: center;
-        align-content: center;
-        justify-items: start;
-        
+        .phone_display>img{
+        height: 40vh;
+            width: 20vw;
+        justify-self: end;
+        align-self: flex-end;
         }
-        #span_article_phone>img{
+        
+        .phone_display{
+            border-radius: 30px;
+        min-height: 60vh;
+            background-color: #B8DDFF;
+            display: grid;
+        justify-items: center;     
+        text-align: start;
+        grid-template-rows: 1fr 1fr;
+             margin-top: 25px;
+             margin-bottom: 25px;
+        color: #0084FF;
+        letter-spacing: 2px;
+        }
+        
+        
+        .phone_display>h1{
         justify-self: start;
-        align-self: end;
-        width: 16vw;
-        height: 42vh;
-        
-        }
+           margin-left: 50px;
             
-        #span_article_phone>p{
+            }
         
-        width: 400px;
-        
-        }
-        
-        
-        #span_article_phone>h3{
-        align-self: center;
+        .phone_display>p{
+            width: 700px;
+            text-align: start;
         justify-self: start;
-        margin-left: 120px;
+      
+        
         }
-    
+        .phone_display>h3{
+        justify-self: start;
+            color: white;
+            background-color: #0084FF;
+            padding: 20px;
+            align-self: center;
+            border-radius: 30px;
+          margin-left: 50px;
+        }
+
+
 
     
     .code{
@@ -998,8 +1038,9 @@ text-align: center;
     }
     
     .Waving_Woman>img{
-    
-        width: 350px ;
+    width: auto;
+    height: auto;
+        max-width: 350px ;
     }
     
     .Waving_Woman>h1{
