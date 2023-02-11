@@ -694,7 +694,7 @@ min-height: 70vh;
 
 
 .development{
-    margin-left: 20px;
+    margin-left: 10px;
     display: grid;
     min-height: 70vh;
 
@@ -703,7 +703,7 @@ min-height: 70vh;
 
 .design{
 
-margin-right: 20px;
+margin-right: 10px;
     display: grid;
     min-height: 70vh;
 }
