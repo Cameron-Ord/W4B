@@ -1249,7 +1249,7 @@ width: 500px;
     .footer_span{
     
         margin-top: 75px;
-        min-height: 53vh;
+        min-height: 60vh;
         grid-template-rows: 60px 80px 140px 100px 120px;
     display: grid;
     background-color: #9693E6;
