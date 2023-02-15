@@ -9,14 +9,18 @@ body{
 
 #header_main{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 justify-content: start;
 align-content: start;
 background-color: #0084FF;
 
 }
  
+#page_main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
+}
 
 
 #workaround{
@@ -108,8 +112,7 @@ min-height: 30vh;
      grid-template-rows: 90px 40px 40px 40px;
 justify-items: center;
 align-content: center;
-     margin-top: 25px;
-     margin-bottom: 25px;
+
      color: #54C788;
     }
 
@@ -248,12 +251,13 @@ font-size: 1.5em;
 
 
 .Waving_Woman{
-    min-height: 125vh;
+    min-height: 140vh;
+    max-height: 150vh;
 display: grid;
 background-color:#9693E6;
     justify-items: center;
     align-content: start;
-    grid-template-rows: 275px 100px 200px 250px 70px 100px ;
+    grid-template-rows: 275px 100px 200px 250px 70px 10vh ;
 }
 
 .Waving_Woman>img{
@@ -405,8 +409,8 @@ height: auto;
 
 
 #benefits{
-    min-height:280vh;
-    max-height: 320vh;
+    min-height:320vh;
+    max-height: 340vh;
 display: grid;
     background-color: #9693E6;
      height: 150vh;
@@ -481,7 +485,7 @@ font-size: 2.5em;
 letter-spacing: 2px;
 text-align: start;
 display: grid;
-width: 350px;
+width: 25vw;
 color: #333333;
 font-size: 1em;
     }
@@ -655,7 +659,7 @@ display: grid;
     text-align: start;
     
          margin-top: 25px;
-         margin-bottom: 25px;
+       
     color: #0084FF;
     letter-spacing: 2px;
     }
@@ -689,6 +693,8 @@ display: grid;
 margin-left: 20px;
 display: grid;
 min-height: 70vh;
+margin-top: 25px;
+margin-bottom: 25px;
 }
 
 
@@ -718,11 +724,13 @@ margin-left: 20px;
 
 .Waving_Woman{
     min-height: 160vh;
+    height: 170vh;
+    max-height: 180vh;
 display: grid;
 background-color:#9693E6;
     justify-items: center;
     align-content: center;
-    grid-template-rows: 375px 100px 250px 370px 80px 100px ;
+    grid-template-rows: 375px 100px 250px 370px 80px 12vh ;
 }
 
 .Waving_Woman>img{
