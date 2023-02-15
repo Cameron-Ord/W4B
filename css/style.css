@@ -60,8 +60,7 @@ min-height: 60vh;
 justify-items: center;     
 text-align: start;
 
-     margin-top: 25px;
-     margin-bottom: 25px;
+
 color: #0084FF;
 letter-spacing: 2px;
 }
@@ -694,7 +693,7 @@ margin-left: 20px;
 display: grid;
 min-height: 70vh;
 margin-top: 25px;
-margin-bottom: 25px;
+
 }
 
 
