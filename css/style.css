@@ -40,7 +40,7 @@ font-size: 1.5em;
 
 #phone_display{
 
-
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 display: grid;
 
 }
@@ -89,8 +89,8 @@ margin-left: 25px;
 
 
 #arrow{
-height: 40px;
-width: 40px ;
+height: 30px;
+width: 30px ;
 background-color: #9693E6;
 border-radius: 30px;
 justify-self: center;
@@ -247,18 +247,21 @@ color: #9693E6;
 font-size: 1.5em;
 }
 
+#article_woman{
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: grid;
+}
 
 
 .Waving_Woman{
-    min-height: 130vh;
+    min-height: 133vh;
 
-height: 135vh;
-    max-height: 150vh;
+
 display: grid;
 background-color:#9693E6;
     justify-items: center;
     align-content: start;
-    grid-template-rows: 275px 100px 200px 250px 70px 10vh ;
+    grid-template-rows: 275px 100px 19vh 250px 70px 10vh ;
 }
 
 .Waving_Woman>img{
@@ -299,7 +302,7 @@ color: black;
 
 
 #testimonial{
-    min-height: 30vh;
+    min-height: 50vh;
 display: grid;
 grid-template-rows: 200px 100px 300px;
 justify-items: center;
@@ -342,9 +345,9 @@ width: 70vw;
 
 .testimonial_one>img{
 align-self: center;
-width: auto;
-height: auto;
-    max-width: 250px;
+
+min-width: 40vw;
+    max-width: 50vw;
     border-radius: 50%;
 }
 
@@ -371,9 +374,9 @@ height: auto;
     
     .testimonial_two>img{
     align-self: center;
-    width: auto;
-    height: auto;
-        max-width: 250px;
+
+    min-width: 40vw;
+    max-width: 50vw;
         border-radius: 50%;
     }
 
@@ -402,9 +405,9 @@ height: auto;
 
         .testimonial_three>img{
         align-self: center;
-        width: auto;   
-        height: auto;
-        max-width: 250px;
+
+        min-width: 40vw;
+        max-width: 50vw;
             border-radius: 50%;
         }
 
@@ -699,6 +702,11 @@ margin-top: 25px;
 
 }
 
+.code>p{
+
+width: 25vw;
+
+}
 
 
 .development{
@@ -708,6 +716,11 @@ margin-top: 25px;
 
 }
 
+.development>p{
+
+
+    width: 25vw;
+}
 
 .design{
 
@@ -716,11 +729,21 @@ margin-right: 10px;
     min-height: 70vh;
 }
 
+.design>p{
+
+    width: 25vw;
+}
+
 .branding{
 margin-left: 20px;
     display: grid;
     min-height: 70vh;
 
+}
+
+.branding>p{
+
+    width: 25vw;
 }
 
 
@@ -796,7 +819,8 @@ align-self: center;
 .testimonial_one>img{
 display: grid;
 justify-self: center;
-
+min-width: 30vw;
+max-width: 35vw;
 }
 
 
@@ -808,7 +832,8 @@ justify-self: center;
     .testimonial_two>img{
         display: grid;
         justify-self: center;
-        
+        min-width: 30vw;
+        max-width: 35vw;
         }
 
     .testimonial_two>p{
@@ -828,7 +853,8 @@ justify-self: center;
         .testimonial_three>img{
             display: grid;
             justify-self: center;
-            
+            min-width: 30vw;
+    max-width: 35vw;
             }
 
         .testimonial_three>p{
